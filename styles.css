@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    text-decoration: #565E65;
+}
+
+/* Style du header */
+header {
+    background-color: #FFF;
+    padding: 15px;
+}
+
+/* Barre de navigation */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Texte : "Agenceco" / Positionné à gauche de la barre */
+.label {
+    font-size: 24px;
+    font-weight: bold;
+    color: #029D5B;
+}
+
+/* Menu / Positionné à droite de la barre*/
+.menu ul {
+    display: flex;
+    list-style: none;
+}
+
+.menu ul li {
+    margin-left: 20px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    font-size: 16px;
+}
