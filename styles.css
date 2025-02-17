@@ -39,4 +39,49 @@ nav {
 .menu ul li a {
     text-decoration: none;
     font-size: 16px;
+    font-weight: bold;
+    color: #565E65;
+}
+
+/* Burger */
+.burger_menu {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.burger_menu span {
+    background-color: #FFF;
+    border: 2px solid #333;
+    width: 25px;
+    margin: 2px 0;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .menu {
+        display: none;
+    }
+
+    .burger_menu {
+        display: flex;
+    }
+
+    .menu .active {
+        display: block;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        background-color: #333;
+        width: 100%;
+        text-align: center;
+    }
+
+    .menu .active ul {
+        flex-direction: column;
+    }
+
+    .menu .active ul li {
+        margin: 15px 0;
+    }
 }
