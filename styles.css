@@ -1,9 +1,31 @@
+/* Style global */
 * {
+    max-height: 1400px;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
     text-decoration: #565E65;
+}
+
+.bg-dark {
+    background-color: #053B44;
+}
+
+h1 {
+    color: #1C2126;
+}
+
+h2 {
+    color: #029D5B;
+}
+
+.yellow-text {
+    color: #D5F31F;
+}
+
+.bold-text {
+    font-weight: bold;
 }
 
 /* Style du header */
@@ -39,5 +61,42 @@ nav {
 .menu ul li a {
     text-decoration: none;
     font-size: 16px;
+    font-weight: bold;
     color: #565E65;
+}
+
+/* Style de la section accueil */
+.accueil {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.accueil img {
+    width: 100%;
+    display: block;
+}
+
+.accueil .texte {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    position: absolute;
+    padding: 50px;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.5);
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.accueil .texte p {
+    font-size: 2.5em;
+}
+
+.big-size {
+    font-size: 3em !important;
 }
