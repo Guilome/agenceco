@@ -115,6 +115,11 @@ nav {
     padding-top: unset;
 }
 
+.accueil a {
+    width: 100%;
+    poi
+}
+
 .accueil img {
     object-fit: cover;
     height: 100vh;
