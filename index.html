@@ -1,46 +1,235 @@
 <!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <title>Agenceco</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <title>Agenceco</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+              rel="stylesheet">
+        <script src="https://kit.fontawesome.com/993cc4b5c4.js"
+                crossorigin="anonymous"></script>
     <script src="script.js"></script>
 </head>
-<body>
-    <header>
-        <nav>
-            <a href="#accueil">
+    <body>
+        <header>
+            <nav>
+                <a href="#accueil">
                 <div class="label">
                     <p>Agenc<i>eco</i></p>
                 </div>
-            </a>
+                </a>
             <div class="menu">
-                <ul>
-                    <li><a href="#accueil">Accueil</a></li>
-                    <li><a href="#equipe">Notre équipe</a></li>
-                    <li><a href="#service">Nos services</a></li>
-                    <li><a href="#">Témoignages</a></li>
-                    <li><a href="#contact">Contactez-nous</a></li>
-                    <li><a href="#galerie">Notre galerie</a></li>
-                </ul>
+                    <ul>
+                        <li><a href="#accueil">Accueil</a></li>
+                        <li><a href="#equipe">Notre équipe</a></li>
+                        <li><a href="#services">Nos services</a></li>
+                        <li><a href="#">Témoignages</a></li>
+                        <li><a href="#contact">Contactez-nous</a></li>
+                        <li><a href="#galerie">Notre galerie</a></li>
+                    </ul>
             </div>
             <div class="burger_menu">
                 <span class="burger"></span>
                 <span class="burger"></span>
                 <span class="burger"></span>
+                </div>
+            </nav>
+        </header>
+        <section class="accueil" id="accueil">
+            <a href="./panorama.html" target="_blank" >
+                <img src="./img/fond-accueil.jpg" alt="fond-accueil">
+            </a>
+            <div class="texte-accueil">
+                <p>Bienvenue dans votre</p><br>
+                <p class="yellow-text big-size"><strong>agence web écologique</strong></p>
             </div>
-        </nav>
-    </header>
-        <section class="accueil" id="accueil"></section>
-        <section class="equipe" id="equipe"></section>
-        <section class="service" id="service"></section>
-        <section class="contact" id="contact"></section>
-        <section class="a_propos" id="a_propos"></section>
-        <section class="galerie" id="galerie"></section>
-    <footer></footer>
-</body>
+        </section>
+        <section class="equipe" id="equipe">
+            <div class="column">
+                <h2>Notre équipe</h2>
+                <p><strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque magni qui ratione? Ea
+                    incidunt
+                    iste porro velit veniam? Deleniti dicta excepturi incidunt inventore ipsa minus molestiae, non quis
+                    ut. Id.</strong></p>
+                <div class="row list-team block100">
+                    <div class="column team block33">
+                        <img src="./img/portrait-1.jpg" alt="portrait-julie">
+                        <h3>Julie Dupond</h3>
+                        <ul>
+                            <li>Lorem ipsum dolor sit amet.</li>
+                            <li>consectetur adipisicing elit.</li>
+                            <li>Quas, vitae!</li>
+                        </ul>
+                    </div>
+                    <div class="column team block33">
+                        <img src="./img/portrait-2.jpg" alt="portrait-romeo">
+                        <h3>Romeo Sylla</h3>
+                        <ul>
+                            <li>Lorem ipsum dolor sit amet.</li>
+                            <li>consectetur adipisicing elit.</li>
+                            <li>Quas, vitae!</li>
+                        </ul>
+                    </div>
+                    <div class="column team block33">
+                        <img src="./img/portrait-3.jpg" alt="portrait-javier">
+                        <h3>Javier Bardem</h3>
+                        <ul>
+                            <li>Lorem ipsum dolor sit amet.</li>
+                            <li>consectetur adipisicing elit.</li>
+                            <li>Quas, vitae!</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="clients bg-dark">
+            <div class="row block100">
+                <div class="client column block25">
+                    <p class="yellow-text big-size"><strong>2500</strong></p>
+                    <p>Clients satisfaits</p>
+                </div>
+                <div class="client column block25">
+                    <p class="yellow-text big-size"><strong>2500</strong></p>
+                    <p>Clients satisfaits</p>
+                </div>
+                <div class="client column block25">
+                    <p class="yellow-text big-size"><strong>2500</strong></p>
+                    <p>Clients satisfaits</p>
+                </div>
+                <div class="client column block25">
+                    <p class="yellow-text big-size"><strong>2500</strong></p>
+                    <p>Clients satisfaits</p>
+                </div>
+            </div>
+        </section>
+        <section class="services" id="services">
+            <div class="column">
+                <h2>Notre services</h2>
+                <div class="row block100">
+                    <div class="service column block50">
+                        <div class="icon">
+                            <img src="img/site.png" alt="creation-site">
+                        </div>
+                        <p><strong>Créations de sites web</strong></p>
+                    </div>
+                    <div class="service column block50">
+                        <div class="icon">
+                            <img src="img/audit.png" alt="audit-qualite">
+                        </div>
+                        <p><strong>Audit qualité</strong></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact bg-dark" id="contact">
+            <div class="column">
+                <h2>Contactez-nous</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti ipsam, ratione.</p>
+                <form action="#" method="POST" class="column block100">
+                    <div class="row block100">
+                        <div class="column block50">
+                            <input type="text" name="name" placeholder="Nom">
+                            <input type="text" name="tel" placeholder="Téléphone">
+                        </div>
+                        <div class="column block50">
+                            <input type="text" name="cat" placeholder="Catégorie">
+                            <input type="text" name="ville" placeholder="Ville">
+                        </div>
+                    </div>
+                    <input id="email" type="email" name="email" placeholder="Email">
+                    <textarea name="message" rows="10" cols="100">Message</textarea>
+                </form>
+            </div>
+        </section>
+        <section class="a_propos" id="a_propos">
+            <div class="row block100">
+                <div class="column block50">
+                    <!--                    <img class="illustration" src="img/photo-a_propos.jpg" alt="a-propos">-->
+                </div>
+                <div class="cadre column block50">
+                    <h1>A propos de nous</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus neque perspiciatis quasi veniam.</p>
+                    <div class="row block100 icons">
+                        <div class="column block33">
+                            <div class="icon">
+                                <img src="img/Vector-ecologique.jpg" alt="ecologique">
+                            </div>
+                            <p>Écologique</p>
+                        </div>
+                        <div class="column block33">
+                            <div class="icon">
+                                <img src="img/Vector-responsable.jpg" alt="responsable">
+                            </div>
+                            <p>Responsable</p>
+                        </div>
+                        <div class="column block33">
+                            <div class="icon">
+                                <img src="img/Vector-24_7.jpg" alt="24/7 assistance">
+                            </div>
+                            <p>24/7 Assistance</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="galerie" id="galerie">
+            <div class="column">
+                <h2>Notre galerie</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid doloremque iusto maiores porro quam
+                    similique suscipit voluptates. Accusamus aperiam aut consequuntur explicabo?</p>
+                <!-- Carousel -->
+            </div>
+        </section>
+        <footer>
+            <div class="row bg-dark block100">
+                <div class="column block20">
+                    <p>Content</p>
+                    <p>consectetur</p>
+                    <p>adipisicing</p>
+                </div>
+                <div class="column block20">
+                    <p>Informations</p>
+                    <p>consectetur</p>
+                    <p>adipisicing</p>
+                </div>
+                <div class="column block20">
+                    <p>Services</p>
+                    <p>consectetur</p>
+                    <p>adipisicing</p>
+                </div>
+                <div class="column block20">
+                    <p>Aide</p>
+                    <p>consectetur</p>
+                    <p>adipisicing</p>
+                </div>
+                <div class="column block20 coordonnees">
+                    <div class=" row phone">
+                        <i class="fa-solid fa-phone yellow-text"></i>
+                        <div class="column">
+                            <p>+33 00 00 00 00 00</p>
+                            <p>+33 00 00 00 00 00</p>
+                        </div>
+                    </div>
+                    <div class=" row adress">
+                        <i class="fa-solid fa-location-dot yellow-text"></i>
+                        <div class="column">
+                            <p>75001 Paris</p>
+                            <p>France</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="legal-footer">
+                <p>Copyright © 2023 AGENCECO - All rights reserved</p>
+                <div class="social-network">
+                    <i class="fa-brands fa-square-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+            </div>
+        </footer>
+    </body>
 </html>

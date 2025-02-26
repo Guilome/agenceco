@@ -6,10 +6,75 @@
     text-decoration: #565E65;
 }
 
-/* Style du header */
+.bg-dark {
+    background-color: #053B44;
+    color: #FFFFFF;
+}
+
+h1 {
+    color: #1C2126;
+}
+
+h2 {
+    color: #029D5B;
+}
+
+.yellow-text {
+    color: #D5F31F;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100%;
+    padding: 40px 0;
+}
+
+.row {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+
+.column {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+
+
+.block100{
+    width: 100%;
+    max-width: 100%;
+}
+
+.block50{
+    width: 50%;
+}
+
+.block33 {
+    width: 33%;
+}
+
+.block25{
+    width: 25%;
+}
+
+.block20{
+    width: 20%;
+}
+
 header {
-    background-color: #FFF;
-    padding: 15px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    background-color: #FFFFFF;
+    z-index: 1;
 }
 
 /* Barre de navigation */
@@ -17,6 +82,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 15px;
 }
 
 /* Texte : "Agenceco" / Positionné à gauche de la barre */
@@ -84,4 +150,171 @@ nav {
     .menu .active ul li {
         margin: 15px 0;
     }
+}
+/* Style de la section accueil */
+.accueil {
+    display: flex;
+    padding-top: unset;
+}
+
+.accueil a {
+    width: 100%;
+    cursor: pointer;
+}
+
+.accueil img {
+    object-fit: cover;
+    height: 100vh;
+    width: 100%;
+    z-index: -1;
+}
+
+.texte-accueil {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    color: #FFFFFF;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.accueil .texte-accueil p {
+    font-size: 2.5em;
+}
+
+.big-size {
+    font-size: 3em !important;
+}
+
+/* Style de la section équipe */
+.list-team {
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.team {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.team ul {
+    list-style: none;
+}
+
+.team img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.client p{
+    font-size: 1.5em;
+}
+
+.service p {
+    font-size: 1.5em;
+}
+
+.service .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 400px;
+    border-radius: 15%;
+    background-color: #F4F6F5;
+    padding: 25px;
+}
+
+.service .icon .img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+/* Section Contact - Form */
+
+input {
+    width: 90%;
+    padding: 12px;
+    border: none;
+    border-bottom: 2px solid #FFFFFF;
+    background-color: transparent;
+    color: #FFFFFF;
+    outline: none;
+    font-size: 16px;
+}
+
+#email {
+    width: 95%;
+}
+
+input::placeholder {
+    color: #FFFFFF;
+}
+
+textarea {
+    width: 95%;
+    padding: 12px;
+    border: none;
+    border-bottom: 2px solid #FFFFFF;
+    background-color: transparent;
+    color: #FFFFFF;
+    outline: none;
+    font-size: 16px;
+    resize: none;
+}
+
+textarea::placeholder {
+    color: #FFFFFF;
+}
+
+/* A propos */
+
+footer {
+    width: 100%;
+}
+
+.cadre {
+    padding: 30px;
+    border: 1px #565E65 solid;
+    border-radius: 15px;
+}
+
+.icons {
+    margin: 50px 0;
+}
+
+.icons .icon {
+    border: 5px solid;
+    border-radius: 50%;
+    padding: 30px;
+}
+
+.legal-footer{
+    display: flex;
+    flex-direction: row;
+    color: #FFFFFF;
+    background-color: #042328;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 100px;
+}
+
+.legal-footer i {
+    color: #FFFFFF;
+    border: 0.5px solid #FFFFFF;
+    border-radius: 25%;
+    padding: 5px;
+}
+
+.coordonnees{
+    justify-content: center;
+    align-items: flex-start;
+>>>>>>> dev
 }
