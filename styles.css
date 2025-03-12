@@ -42,7 +42,7 @@ h3 {
 }
 
 .big-size {
-    font-size: 5em !important;
+    font-size: 5rem !important;
 }
 
 .bg-dark {
@@ -68,7 +68,6 @@ h3 {
 
 section {
     display: flex;
-    /*margin: 50px 0;*/
     padding: 50px 0;
 }
 
@@ -191,6 +190,7 @@ nav a {
 }
 
 .texte-accueil {
+    text-align: right;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -226,6 +226,8 @@ nav a {
 
 /* Main - Clients */
 .clients {
+    display: flex;
+    padding: 50px 0;
     height: unset;
 }
 
