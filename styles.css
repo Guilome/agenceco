@@ -399,14 +399,24 @@ button {
     margin-bottom: 50px;
 }
 
+.coordonnees .phone p {
+    font-size: 16px;
+}
+
+.coordonnees .adress p {
+    font-size: 16px;
+}
+
 .coordonnees .phone i {
     font-size: 30px;
-    margin-right: 40px;
+    margin-right: 20px;
 }
 
 .coordonnees .adress i {
     font-size: 30px;
-    margin-right: 40px;
+    margin-right: 20px;
+    height: 30px;
+    width: 30px;
 }
 
 .legal-footer{
@@ -476,10 +486,30 @@ button {
 
 /* Responsive - version tablette */
 @media (max-width: 770px) {
+    .footer-content {
+        display: none;
+    }
 
+    .coordonnees {
+        min-width: 100%;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .big-size {
+        font-size: 2.5rem !important;
+    }
 }
 
 /* Responsive - version mobile */
 @media (max-width: 430px) {
+    h1 {
+        font-size: 1rem;
+    }
 
+    .big-size {
+        font-size: 1.5rem !important;
+    }
 }
